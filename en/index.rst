@@ -1,8 +1,3 @@
-.. pashinin.com documentation master file, created by
-   sphinx-quickstart on Mon Dec 26 16:56:52 2016.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
-
 pashinin.com
 ************
 
@@ -50,13 +45,14 @@ How to start?
    :caption: Contents:
 
    how_to_start
+   frontend
+   backend
    deploy
    docs
-   static
+   javascript
    api
    long-running-tasks
    testing
-   algo
    mailserver
    auth
    cache
@@ -65,7 +61,10 @@ How to start?
    update
    parser
    django
-   postgresql
+   ssl
+   nomad
+   dns
+   network
 
 
 .. _core/tasks.py: https://github.com/pashinin-com/pashinin.com/blob/master/src/core/tasks.py
