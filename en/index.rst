@@ -53,7 +53,6 @@ How to start?
    long-running-tasks
    testing
    mailserver
-   auth
    cache
    maildb-sql
    telegram

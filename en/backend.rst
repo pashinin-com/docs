@@ -5,4 +5,5 @@ Back-end
    :maxdepth: 2
    :caption: Contents:
 
+   auth
    postgresql
