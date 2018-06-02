@@ -49,7 +49,6 @@ How to start?
    backend
    deploy
    docs
-   javascript
    api
    long-running-tasks
    testing
