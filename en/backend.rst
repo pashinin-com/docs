@@ -6,4 +6,5 @@ Back-end
    :caption: Contents:
 
    auth
+   graphql
    postgresql
