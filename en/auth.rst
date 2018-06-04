@@ -4,8 +4,13 @@ Authentication and Authorization
 Authentication
 --------------
 
-`JSON Web Tokens (JWT) <https://jwt.io>`_ are used for
-authentication.
+.. note::
+
+   `JSON Web Tokens (JWT) <https://jwt.io>`_ allows to store auth
+   information (tokens) on client side (browser) and only verify them on
+   server. So I don't need a storage to save sessions and I don't need
+   to watch Redis servers have the same session data (set up replication
+   or worse - multi-master replication (Dynomite)).
 
 api/auth/jwt/ - obtain JWT here using POST request with payload: {email,
 password}.
